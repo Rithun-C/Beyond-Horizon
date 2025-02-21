@@ -15,8 +15,7 @@ export default function Header() {
             <span className="text-xl font-bold text-primary">Beyond Horizon</span>
           </Link>
         </div>
-
-        {/* Desktop Navigation */}
+        
         <nav className="md:flex md:flex-1 md:items-center md:justify-center">
           <ul className="flex space-x-8">
             {["Chats", "Learn", "Events", "Games"].map((item) => (
@@ -32,7 +31,6 @@ export default function Header() {
           </ul>
         </nav>
 
-        {/* Desktop Auth Buttons */}
         <div className="md:flex md:items-center md:space-x-4 px-4">
           <Link href="/login" variant="ghost" size="sm" className="text-primary p-2">
             Login
